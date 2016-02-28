@@ -4,36 +4,36 @@
 <title>Gamelar HomePage </title>
 </head>
 <style>
-table,td { border-collapse:collapse;
-	border: 1px solid black}
+#kiri {
+	background-color:black;
+	height:100vh;
+	width:30%;
+	float:left;
+}
 
+#kanan {
+	width:70%;
+	height:100vh;
+	float:right;
+}
 
 </style>
-<body style="text-align:center">
-<table style="width:100%;height:600px;" >
-  <br>
-    <td style="width:500px;background-color:black" > 
+<body >
+<div id="kiri" style="text-align:center;">
 	<img src="assets/Logo.png" style="width:100px;height:100px">
 	<pre style="font-size:36px;font-family:Serif;color:Red"> <b>G</b>AMEL-<b>AR</b> </pre> 
 	<hr color="white" width="300px" >
-	<a href= "pages/konten.html#Sec1" target="iframe1" ><img src="assets/buttonRed.png" alt="toSec1" 	title="Click to Section 1 " style="width:34px;height:28px;"></a>
-	<a href= "pages/konten.html#Sec2" target="iframe1"><img src="assets/buttonGreen.png" alt="toSec2" 	title="Click to Section 2" style="width:34px;height:28px;"></a>
-	<a href= "pages/konten.html#Sec3" target="iframe1"><img src="assets/buttonBlue.png" alt="toSec3" 	title="Click to Section 3" style="width:34px;height:28px;"></a>
+	<a href= "pages/konten.html#Sec1" target="iframe1" ><img src="assets/buttonRed.png" 		alt="toSec1" 	title="Click to Section 1 " style="width:34px;height:28px;"></a>
+	<a href= "pages/konten.html#Sec2" target="iframe1"><img src="assets/buttonGreen.png" 		alt="toSec2" 	title="Click to Section 2" style="width:34px;height:28px;"></a>
+	<a href= "pages/konten.html#Sec3" target="iframe1"><img src="assets/buttonBlue.png" 		alt="toSec3" 	title="Click to Section 3" style="width:34px;height:28px;"></a>
 <br>
 <br>
 <p style="color: red"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
-<br>
-<br>
-<br>
-</td>
- 	
-    <td>
-	<iframe src="pages/konten.html" name="iframe1" 	style="border:none;height:100%;width:100%" > 	</iframe>
-</td>
-	
-  </tr>
-</table>
+</div> 	
 
+<div id="kanan" >
+	<iframe src="pages/konten.html" name="iframe1" 			style="border:none;height:100%;width:100%" ></iframe>
+</div>
 
 </body>
 </html>
