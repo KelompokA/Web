@@ -1,0 +1,28 @@
+h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: left;
+    
+}
+
+h2 {
+    color: white;
+    font-family: Roboto;
+    
+}
+
+p {
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 36;
+    margin: 0;
+    text-align:justify; 
+    
+}
+
+#backtop {
+    font-family: "Segoe UI";
+    font-weight: 700;
+}

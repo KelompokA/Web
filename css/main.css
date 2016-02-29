@@ -22,6 +22,7 @@ body {
     height: 100vh;
     width: 30%;
     float: left;
+    text-align: center;
 }
 
 .logo {
@@ -31,11 +32,11 @@ body {
 
 .judul {
     font-size: 40px;
-    font-family: "Code Bold", "Roboto", Serif;
-    font-weight: 500;
+    font-family: 'Droid Sans', sans-serif;
     color: #C59C2D;
     padding: 0;
     margin-bottom: 0;
+    margin-top: 0px;
 }
 
 .subjudul {
@@ -43,12 +44,12 @@ body {
     font-size: 1.1em;
     font-weight: 100;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: "Segoe UI";
 }
 
 .navigation {
     vertical-align: bottom !important;
-    margin-top: 300px;
+    margin-top: 0px;
 }
 
 .navigation p {
@@ -58,15 +59,19 @@ body {
 
 a {
     text-decoration: none;
+    text-decoration-color: white;
 }
 
-a:hover  {
+a:hover  p{
     text-decoration: underline;
-    text-decoration-color: #663399;
+    text-decoration-color: white;
+/*    text-decoration-color: #663399;*/
 }
 
 td {
     width: 120px;
+    height: 100px;
+    vertical-align: top;
 }
 
 td a p {
