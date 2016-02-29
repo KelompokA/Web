@@ -70,3 +70,12 @@ body {
     width: auto;
     height: auto;
 }
+
+.img-profile {
+    
+    opacity: 0.5;
+}
+.img-profile:hover {
+    
+    opacity: 1;
+}
