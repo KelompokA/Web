@@ -1,0 +1,19 @@
+	h1 {
+            color: #C59C2D;
+            font-size: 40px;
+    	    font-weight: 500;
+            font-family:Roboto;
+	    
+        }
+        
+        h2 {
+            color: white;
+            font-family:Roboto;
+            font-weight: 400;
+        }
+        
+        p {
+            color: white;
+	    font-family:Serif;
+	    font-size: 36;
+        }
