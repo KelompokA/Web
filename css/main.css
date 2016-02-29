@@ -25,6 +25,11 @@ body {
     text-align: center;
 }
 
+#inner-kiri {
+    padding: 10% 5% 5% 5%;
+    height: 100vh;
+}
+
 .logo {
     width: 100px;
     height: 100px;
@@ -62,10 +67,10 @@ a {
     text-decoration-color: white;
 }
 
-a:hover  p{
+a:hover p {
     text-decoration: underline;
     text-decoration-color: white;
-/*    text-decoration-color: #663399;*/
+    /*    text-decoration-color: #663399;*/
 }
 
 td {

@@ -4,25 +4,69 @@ h1 {
     font-weight: 400;
     font-family: "Roboto";
     text-align: left;
-    
 }
 
 h2 {
     color: white;
     font-family: Roboto;
-    
+    font-size: 26px;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: left;
+}
+
+h3 {
+    color: #C59C2D;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+    text-align: left;
+    margin: 0;
+    padding-top: 7px;
+}
+
+ul {
+    list-style: none;
+}
+
+.why {
+    margin-top: 50px;
+}
+
+.why li img {
+    color: white;
+    font-family: "Segoe UI";
+    width: auto;
+    height: 70px;
+    float: left;
 }
 
 p {
     color: white;
     font-family: "Segoe UI";
-    font-size: 36;
     margin: 0;
-    text-align:justify; 
-    
+    text-align: justify;
+}
+
+body {
+    background-image: url(../assets/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #backtop {
     font-family: "Segoe UI";
     font-weight: 700;
+    color: white;
+    float: right;
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 170px;
+    margin-right: auto;
+    width: auto;
+    height: auto;
 }
